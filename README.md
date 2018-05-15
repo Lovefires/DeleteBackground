@@ -1,0 +1,2 @@
+# DeleteBackground
+Algorithm modification notes
