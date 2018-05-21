@@ -6,3 +6,15 @@
  3. GMM特征建模来实现分类
  4. GMM建模选用sigmaset特征，（颜色特征可灵活切换，在Superpixels中）
  5. 实现将训练过程和测试过程分开，训练过程得到的GMM模型以二值文件的形式存储下来
+ 
+ 
+ 2018.05.21
+ 在DeleteBackground0430版本的代码上进行修改，并重新命名为DeleteBackground0521-晓东特征
+ 代码特点：
+ 1. 用晓东那边的模型训练的特征代替原来的sigmaset特征来建模（需要配置python和tensorflow的环境，以及填各种坑。）
+ 2. 仅保留粗分割部分的代码
+ 3. 将区块链部分省去   gmmClassifyThes = 0;
+ 4. GMM特征建模来实现分类
+ 5. GMM建模选用sigmaset特征，（颜色特征可灵活切换，在Superpixels中）
+ 6. 实现将训练过程和测试过程分开，训练过程得到的GMM模型以二值文件的形式存储下来
+ 
